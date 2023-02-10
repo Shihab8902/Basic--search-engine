@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  height: 90vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+#search{
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  outline: none;
+}
+.item{
+  margin: 10px;
+  font-size: 20px;
+}
